@@ -1,0 +1,9 @@
+body, h1, h2, h3, p{margin: 0; padding: 0; }
+#background{background-color: yellow; height: 100vh;}
+#background header{background-color: lightblue;}
+#background nav{background-color: lightgreen; margin-bottom: 20px;}
+#background div::after{content: ''; display: block; clear: both; }
+#background div aside{background-color: lightcoral; float: left; width: 30%; height: 70vh;}
+#background div section{background-color: dodgerblue; float: right;width: 70%; height: 70vh; }
+#background > div {margin-bottom:  20px;}
+#background footer{background-color: lightpink;}
